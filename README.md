@@ -14,7 +14,7 @@ Download the workflow from the [Release Page](https://github.com/natesilva/alfre
 
 You can optionally use a publishing system like [semantic-release](https://semantic-release.gitbook.io/semantic-release/), which uses the commit messages to build a changelog and can increment version numbers and publish your NPM module automatically.
 
-We use the [Angular “flavor”](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type) of Conventional Commits.
+We use the [Angular flavor](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type) of Conventional Commits.
 
 ## How do I use it?
 
