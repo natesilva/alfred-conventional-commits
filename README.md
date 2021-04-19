@@ -6,7 +6,7 @@
 
 -   You need to have [Alfred](https://www.alfredapp.com) installed with the Powerpack enbled.
 
-Download the workflow from the [Release Page](releases) and double-click.
+Download the workflow from the [Release Page](https://github.com/natesilva/alfred-conventional-commits/releases) and double-click.
 
 ## What is this?
 
