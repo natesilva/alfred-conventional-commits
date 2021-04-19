@@ -31,9 +31,9 @@ Then there’s a **scope** in parentheses that identifies the component or part 
 
 Then there may be an `!` exclamation point, which indicates that this is a _breaking change_. If you are using [semantic-release](https://semantic-release.gitbook.io/semantic-release/) this can trigger a major version number bump.
 
-Then there’s a `:` colon, followed by the description (your commit message).
+Then there’s a `:` colon, followed by your commit message.
 
-Any commit message can be prefixed with a standard **emoji**. This is **optional**. If you never want emoji, they can be turned of (see [Settings](#settings)).
+Any commit message can be prefixed with a standard **emoji**. This is **optional**. If you never want emoji, they can be turned off using the [Settings](#settings).
 
 Some examples of commit messages are:
 
