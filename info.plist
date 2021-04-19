@@ -1730,6 +1730,6 @@ then type \\conv to trigger</string>
 	<key>version</key>
 	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>natesilva.com</string>
+	<string>https://github.com/natesilva/alfred-conventional-commits</string>
 </dict>
 </plist>
