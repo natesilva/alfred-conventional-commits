@@ -12,18 +12,18 @@ Download the workflow from the [Release Page](https://github.com/natesilva/alfre
 
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) is a way to write Git messages in a standard format that makes it easier to read for humans _and_ computers.
 
-You can optionally use a publishing system like [semantic-release](https://semantic-release.gitbook.io/semantic-release/), which uses the commit messages to build a changelog and can increment version numbers and publish your NPM module automatically.
-
 We use the [Angular flavor](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type) of Conventional Commits.
 
 ## How do I use it?
 
 1. Start the workflow.
-    - By default you can invoke Alfred and then type `conv`. See [Settings](#settings) for other ways to run the workflow.
+    - Invoke Alfred and type `conv`. See [Settings](#settings) for other ways to run the workflow.
 2. You’ll be guided step-by-step to write your commit message.
-3. The final message will be on the clipboard. Paste it into your Git application and commit!
+3. The final message will be on the clipboard. Paste it into your Git application and commit.
 
-## Examples
+## What does the final commit message look like?
+
+The workflow will build the commit message for you. It will have the following parts:
 
 Each message begins with a **type**. We support the [Angular types](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#type): `build`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `style`, and `test`.
 
@@ -50,7 +50,7 @@ Some examples of commit messages are:
 
 To customize the workflow, open Alfred’s preferences and select Workflows. Then select the Conventional Commits workflow. Here are the things you can customize:
 
-Click the **[x]** button in the upper-right corner of Alfred to set the following:
+Click the **[x]** in the upper-right corner of Alfred to set the following:
 
 -   **useEmoji** can be set to `ask`, `always`, or `never`.
     -   `ask` will ask each time if you want an emoji
